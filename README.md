@@ -20,19 +20,19 @@ Al guardar nuestro archivo, podemos usar "pod install" o "pod update" en caso de
 
 Contiene los siguientes grupos:
 
-##H2 Frameworks
+##Frameworks
 Contiene los Frameworks externos que no se incluyen en el Podfile. En este caso FBSDKCoreKit.framework y FBSDKLoginKit.framework.
 
-##H2 Util
+##Util
 **Constants.swift:** Contiene los valores constantes usados por toda la app.
 
-##H2 Services
+##Services
 Contiene la referencia (FIRDatabase.database().reference()) para conectarse a Firebase. Esta referencia se toma del GoogleService-Info.plist en la variable DATABASE_URI.
 
-##H2 Resources
+##Resources
 Contiene los recursos que se usan para la app, en este caso solamente se tienen las fuentes para la tipografía "San Francisco".
 
-##H2 Controller
+##Controller
 Contiene los controladores de la app, en este caso:
 
 * ViewController
@@ -41,7 +41,7 @@ Contiene los controladores de la app, en este caso:
 * DetailViewController
 * PopoverViewController
 
-##H2 View
+##View
 Contiene todos los archivos de las Custom Views de la app, en este caso estan divididas en las vistas generales y las específicas de las tablas:
 
 * CommentTableView
@@ -58,7 +58,7 @@ Contiene todos los archivos de las Custom Views de la app, en este caso estan di
 * MaterialTextField
 * InfoView
 
-##H2 Model
+##Model
 Contiene los modelos de datos de la app, en este caso:
 
 * Place
